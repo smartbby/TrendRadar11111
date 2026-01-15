@@ -248,14 +248,14 @@ storage:
   remote:
     retention_days: 0                 # 保留天数（0=永久保留）
     # S3 兼容配置（或使用环境变量 S3_ENDPOINT_URL 等）
-    endpoint_url: ""                  # 服务端点
+    endpoint_url: "https://nearless.s3.cn-east-1.qiniucs.com"                  # 服务端点
                                       # Cloudflare R2: https://<account_id>.r2.cloudflarestorage.com
                                       # 阿里云 OSS: https://oss-cn-hangzhou.aliyuncs.com
                                       # 腾讯云 COS: https://cos.ap-guangzhou.myqcloud.com
-    bucket_name: ""                   # 存储桶名称
-    access_key_id: ""                 # 访问密钥 ID
-    secret_access_key: ""             # 访问密钥
-    region: ""                        # 区域（可选，部分服务商需要）
+    bucket_name: "TrendRadar"                   # 存储桶名称
+    access_key_id: "_TQiYGFHPUaU5RCrM3qLs8oKot_oRNLRZZmRl5h8"                 # 访问密钥 ID
+    secret_access_key: "yU5j3_dUAXSFg4-Q6RDOUkV0nWKJv-zc7IA6JIeW"             # 访问密钥
+    region: "华东-浙江"                        # 区域（可选，部分服务商需要）
 
   # 数据拉取配置（从远程同步到本地）
   # 用于 MCP Server 等场景：爬虫存到远程，MCP 拉取到本地分析
