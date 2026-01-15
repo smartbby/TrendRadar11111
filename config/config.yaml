@@ -255,7 +255,7 @@ storage:
     bucket_name: "TrendRadar"                   # 存储桶名称
     access_key_id: "_TQiYGFHPUaU5RCrM3qLs8oKot_oRNLRZZmRl5h8"                 # 访问密钥 ID
     secret_access_key: "yU5j3_dUAXSFg4-Q6RDOUkV0nWKJv-zc7IA6JIeW"             # 访问密钥
-    region: "华东-浙江"                        # 区域（可选，部分服务商需要）
+    region: ""                        # 区域（可选，部分服务商需要）
 
   # 数据拉取配置（从远程同步到本地）
   # 用于 MCP Server 等场景：爬虫存到远程，MCP 拉取到本地分析
